@@ -1,0 +1,143 @@
+@font-face {
+  font-family: 'Avenir';
+  src: url('/dist/fonts/Avenir-Heavy.eot');
+  src: url('/dist/fonts/Avenir-Heavy.woff2') format('woff2'),
+    url('/dist/fonts/Avenir-Heavy.woff') format('woff'),
+    url('/dist/fonts/Avenir-Heavy.ttf') format('truetype'),
+    url('/dist/fonts/Avenir-Heavy.svg') format('svg');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir';
+  src: url('/dist/fonts/Avenir-Medium.eot');
+  src: url('/dist/fonts/Avenir-Medium.woff2') format('woff2'),
+    url('/dist/fonts/Avenir-Medium.woff') format('woff'),
+    url('/dist/fonts/Avenir-Medium.ttf') format('truetype'),
+    url('/dist/fonts/Avenir-Medium.svg') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir';
+  src: url('/dist/fonts/Avenir-Light.eot');
+  src: url('/dist/fonts/Avenir-Light.woff2') format('woff2'),
+    url('/dist/fonts/Avenir-Light.woff') format('woff'),
+    url('/dist/fonts/Avenir-Light.ttf') format('truetype'),
+    url('/dist/fonts/Avenir-Light.svg') format('svg');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir';
+  src: url('/dist/fonts/AvenirNext-UltraLight.eot');
+  src: url('/dist/fonts/AvenirNext-UltraLight.woff2') format('woff2'),
+    url('/dist/fonts/AvenirNext-UltraLight.woff') format('woff'),
+    url('/dist/fonts/AvenirNext-UltraLight.ttf') format('truetype'),
+    url('/dist/fonts/AvenirNext-UltraLight.svg') format('svg');
+  font-weight: 100;
+  font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Avenir', Arial, sans-serif;
+  color: #fff;
+  line-height: 1.1em;
+  text-align: center;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 52px;
+  line-height: 55px;
+  @media (max-width: 991px) {
+    font-size: 42px;
+  }
+  @media (max-width: 767px) {
+    font-size: 35px;
+  }
+  @media (max-width: 575px) {
+    font-size: 30px;
+  }
+  @media (max-width: 424px) {
+    font-size: 28px;
+  }
+}
+
+h2 {
+  font-size: 43px;
+  line-height: 41px;
+  margin-bottom: 25px;
+  font-weight: 400;
+  @media (max-width: 991px) {
+    font-size: 31px;
+  }
+  @media (max-width: 767px) {
+    font-size: 25px;
+  }
+  @media (max-width: 424px) {
+    font-size: 22px;
+  }
+}
+
+h3 {
+  font-size: 31px;
+  line-height: 41px;
+  font-weight: 400;
+  @media (max-width: 767px) {
+    font-size: 25px;
+    line-height: 28px;
+  }
+  @media (max-width: 424px) {
+    font-size: 20px;
+  }
+}
+
+h4 {
+  font-size: 27px;
+  line-height: 32px;
+  font-weight: 400;
+  @media (max-width: 767px) {
+    font-size: 22px;
+  }
+  @media (max-width: 424px) {
+    font-size: 18px;
+  }
+}
+
+h5 {
+  font-size: 18px;
+  line-height: 31px;
+  margin-bottom: 10px;
+  @media (max-width: 767px) {
+    font-size: 16px;
+    line-height: 1.35em;
+  }
+}
+
+h6 {
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 0.05em;
+  font-weight: 700;
+}
+
+p {
+  font-size: 17px;
+  line-height: 26px;
+  font-weight: 200;
+  text-align: center;
+  margin: 0 auto 20px;
+  @media (max-width: 767px) {
+    font-size: 14px;
+    line-height: 1.5em;
+  }
+}
